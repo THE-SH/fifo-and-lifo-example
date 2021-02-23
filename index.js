@@ -1,7 +1,12 @@
+/*
+ * This is a simple example for lay people.
+ * Therefore, it was not adopted ways to optimize the code.
+ * The purpose of this code is only to demonstrate data in
+ * stack and queue allocation.
+ */
+
 const readline = require("readline-sync");
-
 const array = new Array();
-
 const options = readline.question("data type: ");
 
 if (options === 'fifo') {
